@@ -154,3 +154,53 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 600px) {
+  .startPage h1{
+    margin-bottom: 0.2em;
+    font-size: 2.5em;
+    font-family: 'Karla';
+    font-style: normal;
+    color: #293264;
+  }
+  
+  .startPage p{
+    font-size: 1em;
+    margin-bottom: 1em;
+    font-family: 'Karla';
+    font-style: normal;
+    color: #293264;
+  }
+  
+  .startPage button{
+    background: #4D5B9E;
+    border-radius: 15px;
+    width: 10em;
+    height: 2.5em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  .topBlob {
+    background: #FFFAD1;
+    position: absolute;
+    height: 12em;
+    width: 12em;
+    left: 65.24%;
+    top: -30.16%;
+    
+  }
+  
+  .botBlob{
+    background: #DEEBF8;
+    position: absolute;
+    height: 12em;
+    width: 12em;
+    z-index: 0;
+    left: -15.24%;
+    top: 400.16%;
+  }
+
+}
